@@ -27,7 +27,10 @@ class Song
  end 
   
   def self.genre_count
-    new_genre = []
-    @@genres.each do |  |
+    new_genre = {}
+    @@genres.each do | genre |
+      if new_genre[genre] 
+      
+    end 
   end 
 end 
