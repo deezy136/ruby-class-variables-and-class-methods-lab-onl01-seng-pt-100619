@@ -16,7 +16,9 @@ class Song
    @@count
  end 
  
- def self.artisits
+ def self.artisit
+   @@artists
+ end 
  
  def self.genre
    if !(GENRES.include?(@genre))
