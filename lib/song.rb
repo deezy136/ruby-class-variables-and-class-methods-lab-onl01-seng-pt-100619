@@ -15,6 +15,8 @@ class Song
    @@count
  end 
  
+ def self.artisits
+ 
  def self.genre
    if !(GENRES.include?(@genre))
     BRANDS.push(@brand)
