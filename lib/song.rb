@@ -10,6 +10,7 @@ class Song
     @artist = artist 
     @genre = genre
     @@count +=1 
+    @@genre << genre
     @@artists.push(artist)
   end 
  
@@ -22,9 +23,7 @@ class Song
  end 
  
  def self.genre
-   if !(GENRES.include?(@genre))
-    BRANDS.push(@brand)
- end
+   @@genre
  end 
   
 end 
